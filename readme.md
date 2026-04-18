@@ -226,5 +226,5 @@ From a long video → to a short, engaging, captioned highlight reel automatical
 * MoviePy
 
 ---
-### Live demo: https://attentionx-hackathon-reelgenerator.onrender.com
+
 ### ⭐ If you like this project, consider giving it a star!
