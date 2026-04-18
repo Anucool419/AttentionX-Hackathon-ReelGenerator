@@ -1,0 +1,14 @@
+transformers
+openai-whisper
+moviepy
+opencv-python
+ultralytics
+streamlit
+pydub
+python-multipart #for ports
+scoop #to install ffmpeg for whisper on cpu
+#Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+#irm get.scoop.sh | iex
+#scoop --version
+#scoop install ffmpeg
+#Used winget instead: Run 'winget install Gyan.FFmpeg' on powershell

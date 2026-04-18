@@ -1,0 +1,15 @@
+# Virtual Environment
+virt/
+
+# Machine Learning Model Weights
+*.pt
+*.pth
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Project Data and Outputs (to avoid uploading heavy videos/data)
+data/
+outputs/
