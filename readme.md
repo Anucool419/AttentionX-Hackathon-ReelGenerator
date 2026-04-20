@@ -205,6 +205,7 @@ Built to simplify content creation for:
 From a long video → to a short, engaging, captioned highlight reel automatically.
 
 ---
+## Video link to see demo: https://www.loom.com/share/8c5e97b66efe4537b5de2e5a4ed83a6c
 
 ## 🙌 Acknowledgements
 
@@ -214,5 +215,5 @@ From a long video → to a short, engaging, captioned highlight reel automatical
 * MoviePy
 
 ---
-### Live demo: 
+
 ### ⭐ If you like this project, consider giving it a star!
