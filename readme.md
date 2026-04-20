@@ -57,9 +57,15 @@ project/
 │   ├── highlight_reel.mp4
 │   └── video_with_captions.mp4
 │
-├── sentiment_analysis.py
-├── vision_pipeline.py
-├── captions.py
+├── src/
+│   ├── app.py
+│   ├── audio_pipeline.py
+│   ├── captions.py
+│   ├── main.py
+│   ├── sentiment_analysis.py
+│   └── vision_pipeline.py
+│
+├── requirements.txt
 └── README.md
 ```
 
@@ -99,48 +105,31 @@ Download from https://ffmpeg.org/download.html
 
 ## ▶️ Usage
 
-### Step 1: Place your video
+### Step 1: Start the Backend Server
 
-```text
-data/input.mp4
+Start the FastAPI backend to handle video processing:
+
+```bash
+uvicorn src.main:app --reload
 ```
 
 ---
 
-### Step 2: Run transcription + emotion detection
+### Step 2: Start the Frontend Interface
+
+In a new terminal, launch the Streamlit web app:
 
 ```bash
-python sentiment_analysis.py
+streamlit run src/app.py
 ```
-
-Outputs:
-
-* `transcripts.json`
-* `emotional_peaks.json`
 
 ---
 
-### Step 3: Generate highlight clips
+### Step 3: Upload and Process Video
 
-```bash
-python vision_pipeline.py
-```
-
-Output:
-
-* `highlight_reel.mp4`
-
----
-
-### Step 4: Add captions
-
-```bash
-python captions.py
-```
-
-Output:
-
-* `video_with_captions.mp4`
+1. Open the provided Streamlit local URL in your browser.
+2. Upload your video and click **Submit to Backend**.
+3. Wait for the processing to finish, then download the final highlight reel with captions!
 
 ---
 
